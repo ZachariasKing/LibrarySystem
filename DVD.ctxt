@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=DVD
+comment0.text=\r\n\ 'DVD'\ inherits\ from\ the\ AudioVisual\ class\ and\ models\ a\ DVD\ in\ the\ University\ library\ system\r\n\ that\ inherits\ all\ the\ atributes\ of\ an\ AudioVisual\ object\ and\ it\ has\ a\ director\r\n\ \r\n\ The\ class\ has\ two\ constructors\ in\ order\ to\ make\ testing\ an\ easier\ process.\r\n\ \r\n\r\n\ @author\ Zacharias\ King\r\n\ @version\ 22/02/2018\r\n
+comment1.params=
+comment1.target=DVD()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ DVD\ used\ for\ testing\ with\ default\ values\r\n
+comment2.params=
+comment2.target=java.lang.String\ getDirector()
+comment2.text=\r\n\ This\ method\ simply\ returns\ the\ name\ of\ the\ DVD's\ director\r\n\ \r\n\ @return\ the\ name\ of\ the\ director\ of\ the\ DVD\ content\r\n
+comment3.params=director
+comment3.target=void\ setDirector(java.lang.String)
+comment3.text=\r\n\ This\ method\ allows\ us\ to\ alter\ the\ name\ of\ the\ director\ of\ the\ DVD\ item\r\n\ \r\n\ @param\ director\ the\ new\ name\ of\ the\ director\ we\ want\ to\ give\ to\ the\ DVD\r\n
+comment4.params=
+comment4.target=void\ printDetails()
+comment4.text=\r\n\ This\ method\ prints\ the\ details\ of\ the\ DVD\ item\ using\ the\ fields\ from\ the\ superclass\r\n\ and\ the\ fields\ from\ this\ class\r\n\ \r\n\ @Override\r\n
+comment5.params=dataScanner
+comment5.target=void\ extractData(java.util.Scanner)
+comment5.text=\r\n\ This\ method\ extracts\ data\ from\ a\ line\ of\ text\ given\ to\ the\ scanner\ being\ passed\ as\ an\ argument\ into\r\n\ the\ method.\r\n\ \r\n\ @param\ dataScanner\ is\ the\ <code>Scanner</code>\ used\ to\ extract\ each\ section\ of\ data\ with\ a\ certain\ \r\n\ delimiter\r\n\ \r\n\ @Override\r\n
+numComments=6

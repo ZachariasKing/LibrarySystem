@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=PrintedItem
+comment0.text=\r\n\ The\ PrintedItem\ class\ represents\ any\ items\ in\ the\ library\ that\ are\ printed\ such\ as\ periodicals\ and\ books.\r\n\ Other\ than\ those\ that\ are\ inherited,\ the\ PrintedItem\ class\ contains\ the\ variables\ 'noOfPages'\ and\ 'publisher'as\ these\r\n\ are\ shared\ only\ between\ printed\ items.\r\n\r\n\ @author\ Zacharias\ King\r\n\ @version\ 14/04/2018\r\n
+comment1.params=
+comment1.target=PrintedItem()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ PrintedItem\r\n
+comment2.params=
+comment2.target=int\ getNoOfPages()
+comment2.text=\r\n\ This\ method\ returns\ the\ number\ of\ pages\ of\ the\ printed\ item\r\n\ \r\n\ @return\ the\ number\ of\ pages\ of\ the\ PrintedItem\ object\r\n
+comment3.params=
+comment3.target=java.lang.String\ getPublisher()
+comment3.text=\r\n\ This\ method\ returns\ the\ publisher\ of\ the\ printed\ item\r\n\ \r\n\ @return\ the\ name\ of\ the\ publisher\ of\ the\ PrintedItem\ object\r\n
+comment4.params=dataScanner
+comment4.target=void\ extractData(java.util.Scanner)
+comment4.text=\r\n\ This\ method\ extracts\ data\ from\ a\ line\ of\ text\ given\ to\ the\ scanner\ being\ passed\ as\ an\ argument\ into\r\n\ the\ method.\r\n\ \r\n\ @param\ dataScanner\ is\ the\ <code>Scanner</code>\ used\ to\ extract\ each\ section\ of\ data\ with\ a\ certain\ \r\n\ delimiter\r\n\ \r\n\ @Override\r\n
+comment5.params=
+comment5.target=void\ printDetails()
+comment5.text=\r\n\ This\ method\ prints\ out\ the\ details\ of\ the\ PrintedItem\ object\r\n
+numComments=6

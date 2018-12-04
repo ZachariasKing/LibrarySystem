@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=AudioVisual
+comment0.text=\r\n\ The\ AudioVisual\ class\ represents\ audio\ visual\ items\ in\ the\ library\ system\ that\ can\ \r\n\ be\ borrowed\ and\ have\ their\ own\ loan\ status,\ cost,\ artist,\ item\ code,\ title\ and\ playing\ time.\r\n\ \r\n\ AudioVisual\ items\ that\ carry\ these\ attributes\ and\ more\ inherit\ from\ this\ class.\r\n\r\n\ @author\ Zacharias\ King\r\n\ @version\ 14/04/2018\r\n
+comment1.params=
+comment1.target=AudioVisual()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ AudioVisual\ which\ creates\ an\ empty\ AudioVisual\ object\r\n\ This\ constructor\ is\ needed\ as\ a\ call\ to\ super\ in\ the\ subclasses\ in\ order\ to\ create\r\n\ empty\ specialized\ objects.\r\n\ \r\n\ In\ order\ to\ emphasize\ that\ this\ object\ is\ empty,\ we\ have\ explicitly\ declared\ 'null',\ '0'\ or\ 'false'\ respectively\r\n\ for\ string,\ int\ and\ boolean\ values.\r\n\ \ \r\n
+comment2.params=
+comment2.target=int\ getPlayingTime()
+comment2.text=\r\n\ This\ method\ returns\ the\ playing\ time\ of\ the\ audio\ visual\ item\ in\ minutes\r\n\ \r\n\ @return\ the\ playing\ time\ of\ the\ audio\ visual\ item\ in\ minutes\r\n
+comment3.params=minutes
+comment3.target=void\ setPlayingTime(int)
+comment3.text=\r\n\ This\ method\ allows\ us\ to\ alter\ the\ playing\ time\ of\ an\ audio\ visual\ item\r\n\ \r\n\ @param\ minutes\ the\ new\ playing\ time\ in\ minutes\ which\ we\ want\ to\ assign.\r\n
+comment4.params=
+comment4.target=void\ printDetails()
+comment4.text=\r\n\ This\ method\ prints\ out\ the\ details\ shared\ between\ each\ AudioVisual\ item,\ using\ an\ if\ statement\r\n\ to\ check\ whether\ the\ item\ is\ on\ loan\ or\ not\r\n\ \r\n
+comment5.params=dataScanner
+comment5.target=void\ extractData(java.util.Scanner)
+comment5.text=\r\n\ This\ method\ extracts\ data\ from\ a\ line\ of\ text\ given\ to\ the\ scanner\ being\ passed\ as\ an\ argument\ into\r\n\ the\ method.\ In\ particular,\ for\ refactoring\ purposes,\ this\ class\ extracts\ the\ shared\ attributes\ of\ all\ AudioVisual\ items\r\n\ \r\n\ @param\ dataScanner\ is\ the\ <code>Scanner</code>\ used\ to\ extract\ each\ section\ of\ data\ with\ a\ certain\ \r\n\ delimiter\r\n
+numComments=6

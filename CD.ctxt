@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CD
+comment0.text=\r\n\ 'CD'\ inherits\ from\ the\ AudioVisual\ class\ and\ models\ a\ CD\ in\ the\ University\ library\ system\r\n\ that\ inherits\ all\ the\ atributes\ of\ an\ AudioVisual\ object\ and\ it\ has\ a\ number\ of\ tracks\ as\ well.\r\n\ \r\n\ The\ class\ has\ two\ constructors\ in\ order\ to\ make\ testing\ an\ easier\ process.\r\n\ \r\n\ \r\n\ @author\ Zacharias\ King\r\n\ @version\ 22/02/2018\r\n
+comment1.params=
+comment1.target=CD()
+comment1.text=\r\n\ Constructor\ for\ objects\ of\ an\ empty\ CD\ class\ used\ for\ testing\ with\ default\ values\r\n
+comment2.params=
+comment2.target=int\ getNoOfTracks()
+comment2.text=\r\n\ This\ method\ simply\ returns\ the\ number\ of\ tracks\ the\ CD\ contains\r\n\ \r\n\ @return\ the\ number\ of\ tracks\ that\ the\ CD\ contains\r\n
+comment3.params=
+comment3.target=java.lang.String\ getArtist()
+comment3.text=\r\n\ This\ method\ returns\ the\ name\ of\ the\ artist\ of\ the\ audio\ visual\ medium\r\n\ \r\n\ @return\ the\ name\ of\ the\ artist\r\n
+comment4.params=
+comment4.target=void\ printDetails()
+comment4.text=\r\n\ This\ method\ prints\ the\ details\ of\ the\ CD\ item\ calling\ an\ external\ method\ of\ printDetails\ of\ the\ superclass\r\n\ as\ well\ as\ printing\ out\ the\ specific\ details\ of\ this\ (sub)\ class\r\n\r\n\ @Override\r\n
+comment5.params=dataScanner
+comment5.target=void\ extractData(java.util.Scanner)
+comment5.text=\r\n\ This\ method\ extracts\ data\ from\ a\ line\ of\ text\ given\ to\ the\ scanner\ being\ passed\ as\ an\ argument\ into\r\n\ the\ method.\r\n\ \r\n\ @param\ dataScanner\ is\ the\ <code>Scanner</code>\ used\ to\ extract\ each\ section\ of\ data\ with\ a\ certain\ \r\n\ delimiter\r\n\ \r\n\ @Override\r\n
+numComments=6
