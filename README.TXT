@@ -1,12 +1,3 @@
-------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
-------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
+PROJECT TITLE: Library System 
+PURPOSE OF PROJECT: To model a library system in that users of the library can reserve and book items that belong to the librar for certain lengths of time. This project uses a variety of IO techniques to extract and insert data.
+VERSION or DATE: 09/10/2017
